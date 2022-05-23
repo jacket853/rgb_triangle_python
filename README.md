@@ -27,17 +27,3 @@ b are integers between 0-256, determining the light's intensity.) to convert tho
 spectrum, as well as its shade - white is (255, 255, 255), and its hexadecimal is #FFFFFF. Black -> (0, 0, 0) -> #000000
 - Lastly, clicking the black circle will smoothly close the program - using the red "X" to close the program works, but 
 bypasses some code, and therefore throws an error if you decide to run this program through the terminal/cmd.
-
-Opening through Finder (on Mac) or File Explorer (Windows):
-- Double-click on the .py file to open
-Opening through terminal (on Mac) or command prompt (windows):
-- Make sure you have at Python 3.9.6 or later installed
-- Install the following packages through these commands - MUST BE INSTALLED IN/MOVED TO THE SAME DIRECTORY:
-	- Mac: python3 -m pip install math
-	       python3 -m pip install graphics (you need to download this file and save it the same directory you are 
-	       using the .py file in: https://drive.google.com/file/d/1Z05lzCFR7J84w3-xjno9S7rP8lmwtPRA/view
-	- Windows: py -m pip install math
-		   py -m pip install graphics (https://drive.google.com/file/d/1Z05lzCFR7J84w3-xjno9S7rP8lmwtPRA/view)
-- Run the file
-	- Mac: python3 JackHarveyRGBTriangle.py
-	- Windows: python JackHarveyRGBTriangle.py
